@@ -13,7 +13,7 @@ body {
     background: #ffffff;
     font-family: 'Inter', sans-serif;
     color: #000000;
-    padding: 0.8rem 1rem 8rem 1rem;
+    padding: 0.8rem 1rem 12rem 1rem;
     min-height: 100vh;
 }
 
@@ -323,7 +323,7 @@ input:disabled {
     border: 1px solid #e0e0e0;
 }
 
-/* FOOTER - увеличенный, чёрный, без полосы */
+/* FOOTER - УВЕЛИЧЕН В 2 РАЗА */
 footer {
     text-align: center;
     position: fixed;
@@ -332,21 +332,21 @@ footer {
     width: 100%;
     background: #000000;
     color: #ffffff;
-    padding: 1rem;
-    font-size: 0.85rem;
+    padding: 2rem;
+    font-size: 1.1rem;
     border-top: none;
     z-index: 100;
 }
 
 footer h3 {
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: #ffffff;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 footer p {
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: #aaaaaa;
 }
 
@@ -367,7 +367,7 @@ footer a:hover {
 /* Адаптив */
 @media (max-width: 480px) {
     body {
-        padding: 0.6rem 0.8rem 7rem 0.8rem;
+        padding: 0.6rem 0.8rem 12rem 0.8rem;
     }
     .calculator-card {
         padding: 1rem 0.8rem;
@@ -379,13 +379,14 @@ footer a:hover {
     .leverage-scale {
         font-size: 0.5rem;
     }
+    /* Футер на мобильных тоже увеличен */
     footer {
-        padding: 0.8rem;
+        padding: 1.5rem;
     }
     footer h3 {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     footer p {
-        font-size: 0.65rem;
+        font-size: 0.85rem;
     }
 }
